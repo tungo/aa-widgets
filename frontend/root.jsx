@@ -2,6 +2,7 @@ import React from 'react';
 
 import Clock from './clock';
 import Weather from './weather';
+import Autocomplete from './autocomplete';
 
 class Root extends React.Component {
 
@@ -10,6 +11,7 @@ class Root extends React.Component {
       <div>
         <Clock/>
         <Weather/>
+        <Autocomplete names={['Abba', 'Barney', 'Barbara', 'Jeff', 'Jenny', 'Sarah', 'Sally', 'Xander']}/>
       </div>
     );
   }

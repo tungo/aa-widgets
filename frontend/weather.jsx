@@ -18,8 +18,6 @@ class Weather extends React.Component{
       xhr.onload = () => {
         let res = JSON.parse(xhr.responseText);
 
-        console.log(res);
-
         if (xhr.status >= 200 && xhr.status < 400) {
           this.setState({ city: res.name, temp: res.main.temp });
         } else {
