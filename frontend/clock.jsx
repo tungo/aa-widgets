@@ -25,14 +25,17 @@ class Clock extends React.Component {
     return (
       <div className= 'clock'>
         <h1>Clock</h1>
+
         <div className='clock-div'>
-          <h3>Time:</h3>
-          <h3>{`${this.state.time.getHours()}:${this.state.time.getMinutes()}:${this.state.time.getSeconds()}`}</h3>
-        </div>
-        <br/>
-        <div className='clock-div'>
-          <h3>Date</h3>
-          <h3>{`${this.state.time.getMonth() + 1}/${this.state.time.getDate()}/${this.state.time.getFullYear()}` }</h3>
+          <div>
+            <h3>Time:</h3>
+            <h3>{`${this.state.time.getHours()}:${this.state.time.getMinutes()}:${this.state.time.getSeconds()}`}</h3>
+          </div>
+          
+          <div>
+            <h3>Date: </h3>
+            <h3>{`${this.state.time.getMonth() + 1}/${this.state.time.getDate()}/${this.state.time.getFullYear()}` }</h3>
+          </div>
         </div>
       </div>
     );

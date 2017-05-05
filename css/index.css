@@ -10,10 +10,19 @@ body, h1, div{
 
 
 .clock-div{
+  background: #aeca8e;
+  border: 1px solid black;
+}
+
+.clock-div div{
   display: flex;
   justify-content: space-between;
 }
 
-.clock {
-  background: #aeca8e;
+
+.weather div {
+  border: 1px solid black;
+  background: #03a9f4;
+  display: flex;
+  justify-content: center;
 }
