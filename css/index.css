@@ -1,0 +1,19 @@
+body, h1, div{
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font-family: 'Raleway', sans-serif;
+
+  background: transparent;
+}
+
+
+.clock-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.clock {
+  background: #aeca8e;
+}

@@ -1,10 +1,14 @@
 import React from 'react';
 
+import Clock from './clock';
+
 class Root extends React.Component {
 
   render(){
     return (
-      <div>Root Div</div>
+      <div>
+        <Clock/>
+      </div>
     );
   }
 
