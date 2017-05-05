@@ -1,4 +1,4 @@
-body, h1, div{
+body, h1, div, ul, li{
   margin: 0;
   padding: 0;
   border: 0;
@@ -38,4 +38,33 @@ body, h1, div{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tabs ul {
+  display: flex;
+  width: 100%;
+}
+
+.tabs li{
+  list-style: none;
+  border: 1px solid black;
+  padding: 10px;
+  background: #ffeb3b;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+.pane {
+  border: 1px solid black;
+  padding: 10px;
+  background: #ffeb3b;
+  width: inherit;
+  display: inline-block;
+  text-align: center;
 }
